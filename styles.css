@@ -62,18 +62,18 @@ p{
 	font-size: 22px;
 	height: 50px;
 	font-weight: 400;
-	color: #fff;
+	color:white;
 	text-align: center;
 	line-height: normal;
 	background: linear-gradient(90deg, #20201b 0, #010910 100%);
 	border-radius: 50px;
-	transition: color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+	
 	animation: leftToRight 2.4s infinite;
 }
 
 #btn:hover {
-	background-color: black;
-	color: white;
+	background: white;
+	color: black;
 }
 
 @keyframes leftToRight {
